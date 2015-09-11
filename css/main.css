@@ -6,10 +6,6 @@ dark blue #3C3F36
 green #9FB03E
 orange #FF6138
 
-
-
-*/
-
 /*body*/
 body{
 	background: #FEFFFF;
@@ -67,6 +63,10 @@ aside div{
 .accBtn{
 	margin-bottom: 15px; 
 }
+/*boxes that hold each aside article*/
+.asideBox{
+	margin-bottom: 130px;
+}
 /*web design panel, first panel*/
 #headingOne{
 	background: #72918B;
@@ -80,6 +80,10 @@ aside div{
 #headingTwo{
 	background: #FF6138;
 	color: #FEFFFF;
+}
+/*paragraphs under video in aside*/
+.asideP{
+	margin-top: -60px;
 }
 /*graphic design panel, third panel*/
 #headingThree{
