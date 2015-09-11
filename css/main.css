@@ -1,3 +1,26 @@
+/*Colors
+
+white #FEFFFF
+blue #72918B
+dark blue #3C3F36
+green #9FB03E
+orange #FF6138
+
+
+
+*/
+
+/*body*/
+body{
+	background: #FEFFFF;
+	color: #3C3F36;
+}
+/*header tags, h1 and h2*/
+h1,h2{
+	color: #72918B;
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+}
 /*adds full 100% width to images*/
 .fullsize{
 	width:100%;
@@ -16,5 +39,11 @@ aside div{
 }
 /*main Img*/
 .mainImg{
-	margin-top: 30px;
+	margin: 30px 0 30px 0;
 }
+/*main paragraph styling*/
+.mainP{
+	font-size: 1em;
+}
+
+/***** Homepage Accordian Menu ****/
