@@ -21,6 +21,12 @@ h1,h2{
 	letter-spacing: 3px;
 	margin-bottom: 30px;
 }
+/*primary buttons*/
+.btn-primary{
+	outline: none;
+	border: none;
+	background: #FF6138;
+}
 /*adds full 100% width to images*/
 .fullsize{
 	width:100%;
@@ -43,7 +49,36 @@ aside div{
 }
 /*main paragraph styling*/
 .mainP{
-	font-size: 1em;
+	font-size: 1.2em;
+	padding: 2%;
 }
 
 /***** Homepage Accordian Menu ****/
+/*web design panel, first panel*/
+#headingOne{
+	background: #72918B;
+	color: #FEFFFF;
+}
+/*marketing panel, second panel*/
+#headingTwo{
+	background: #FF6138;
+	color: #FEFFFF;
+}
+/*graphic design panel, third panel*/
+#headingThree{
+	background: #9FB03E;
+	color: #FEFFFF;
+}
+
+/*font styling for accorting header texts*/
+#headingOne a,#headingTwo a, #headingThree a{
+	letter-spacing: 2.5px;
+	font-size: 1.5em;
+}
+
+
+
+
+
+
+
