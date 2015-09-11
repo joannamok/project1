@@ -2,3 +2,11 @@
 .fullsize{
 	width:100%;
 }
+/*header*/
+header{
+	margin-bottom: 70px;
+}
+/*aside containers*/
+aside div{
+	margin-bottom: 70px;
+}
