@@ -27,6 +27,10 @@ h1,h2{
 	border: none;
 	background: #FF6138;
 }
+/*full size buttons*/
+.fullBtn{
+	width: 100%;
+}
 /*adds full 100% width to images*/
 .fullsize{
 	width:100%;
@@ -54,10 +58,23 @@ aside div{
 }
 
 /***** Homepage Accordian Menu ****/
+/*font styling for accorting header texts*/
+#headingOne a,#headingTwo a, #headingThree a{
+	letter-spacing: 2.5px;
+	font-size: 1.5em;
+}
+/*link buttons in accordion*/
+.accBtn{
+	margin-bottom: 15px; 
+}
 /*web design panel, first panel*/
 #headingOne{
 	background: #72918B;
 	color: #FEFFFF;
+}
+/*blockquote in acc panel 1*/
+#accBlock1{
+	margin-top: 70px;
 }
 /*marketing panel, second panel*/
 #headingTwo{
@@ -69,11 +86,13 @@ aside div{
 	background: #9FB03E;
 	color: #FEFFFF;
 }
-
-/*font styling for accorting header texts*/
-#headingOne a,#headingTwo a, #headingThree a{
-	letter-spacing: 2.5px;
-	font-size: 1.5em;
+/*blockquote in acc panel 3*/
+#accBlock3{
+	margin-top: 70px;
+}
+/*blockquote in acc panel 3*/
+#accBlock3 img{
+	margin-bottom: 70px;
 }
 
 
