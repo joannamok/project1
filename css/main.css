@@ -1,3 +1,4 @@
-main{
-	background: red;
+/*adds full 100% width to images*/
+.fullsize{
+	width:100%;
 }
